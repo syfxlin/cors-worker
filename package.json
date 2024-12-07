@@ -1,0 +1,19 @@
+{
+  "name": "cors-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.5.2",
+    "@cloudflare/workers-types": "^4.20241205.0",
+    "@syfxlin/eslint-config": "^1.1.0",
+    "eslint": "^9.16.0",
+    "typescript": "^5.5.2",
+    "wrangler": "^3.60.3"
+  }
+}
